@@ -9,10 +9,7 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"paren_walls",
-    "path":"objects/paren_walls/paren_walls.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"examplewall_spr",
-    "path":"sprites/examplewall_spr/examplewall_spr.yy",
+  "spriteId":{
+    "name":"spr_collision",
+    "path":"sprites/spr_collision/spr_collision.yy",
   },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }
