@@ -10,17 +10,19 @@ vert = up+down;
 hspd = horiz*player_spd;
 vspd = vert*player_spd;
 
-if (place_meeting(x+hspd,y,paren_walls)){
-	while (!place_meeting(x+sign(hspd),y,paren_walls)){
-		x+=sign(hspd)
+if (!playerfreeze){
+	if (place_meeting(x+hspd,y,paren_walls)){
+		while (!place_meeting(x+sign(hspd),y,paren_walls)){
+			x+=sign(hspd)
+		}
+		hspd=0;
 	}
-	hspd=0;
-}
-x+=hspd;
-if (place_meeting(x,y+vspd,paren_walls)){
-	while (!place_meeting(x,y+sign(vspd),paren_walls)){
-		y+=sign(vspd)
+	x+=hspd;
+	if (place_meeting(x,y+vspd,paren_walls)){
+		while (!place_meeting(x,y+sign(vspd),paren_walls)){
+			y+=sign(vspd)
+		}
+		vspd=0;
 	}
-	vspd=0;
+	y+=vspd;
 }
-y+=vspd;
