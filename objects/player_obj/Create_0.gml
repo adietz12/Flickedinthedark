@@ -19,6 +19,8 @@ velocity_y = 0.0
 
 anim_frame = 0
 
+flashlight_beam = instance_create_layer(x,y,"Instances",light_source_beam_obj)
+
 set_state_walking = function(){
 	state = STATE.WALKING
 }

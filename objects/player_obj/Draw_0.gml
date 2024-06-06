@@ -16,7 +16,7 @@ if (velocity_x != 0.0 or velocity_y != 0.0){
 }
 
 if (flip) {
-	draw_sprite_ext(spr_man, frame,x+64.0, y, -1.0, 1.0, 0.0, c_white, image_alpha);	
+	draw_sprite_ext(spr_man, frame,x, y, -1.0, 1.0, 0.0, c_white, image_alpha);	
 } else {
 	draw_sprite_ext(spr_man, frame,x, y, 1.0, 1.0, 0.0, c_white, image_alpha);	
 }

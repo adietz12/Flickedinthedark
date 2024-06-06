@@ -23,6 +23,23 @@ if (anim_frame >= 30){
 	anim_frame = 0
 }
 
+//fleshlight beam management stuff
+var beamx = x
+if flip {
+	beamx += -10
+} else {
+	beamx += 10
+}
+var beamy = y + 12
+flashlight_beam.x = beamx
+flashlight_beam.y = beamy
+var bdiffx = mouse_x - beamx
+var bdiffy = mouse_y - beamy
+flashlight_beam.rotation = radtodeg(arctan(-bdiffy/bdiffx))
+if bdiffx < 0{
+	flashlight_beam.rotation += 180	
+}
+
 if (interact){
 	var s = instance_place(x,y-32,lightswitch_obj)
 	if (s != noone){
