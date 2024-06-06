@@ -6,7 +6,8 @@ enum DRAW {
 	DISABLED_SWITCHLESS,
 	REPAIRED,
 }
-
+panel = noone
+panelid= random(100)
 //determines which sprite is used
 draw_state = DRAW.DISABLED
 repaired = false
@@ -24,9 +25,19 @@ interacted = function(player){
 
 //open the panel
 open_panel = function(){
+	if (panel==noone){
+	panel = instance_create_layer(576,324,"Panel",panel_obj)
+	panel.panelid=panelid
+	}
+	else{
+		panel.visible=true
+	}
+	show_debug_message("Open sesame")
 	return	
 }
 //close the panel
 close_panel = function(){
+	panel.visible=false
+	show_debug_message("Closed that bitch")
 	return	
 }
