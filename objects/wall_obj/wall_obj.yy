@@ -30,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
+  "spriteId":null,
+  "spriteMaskId":{
     "name":"examplewall_spr",
     "path":"sprites/examplewall_spr/examplewall_spr.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }
