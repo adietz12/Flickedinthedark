@@ -6,11 +6,16 @@ var right = keyboard_check(ord("D"));
 var left = -keyboard_check(ord("A"));
 var up = -keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
+var sprint = keyboard_check(vk_shift)
 
 var horiz = right+left;
 var vert = up+down;
 velocity_x = horiz*player_spd
 velocity_y = vert*player_spd
+if (sprint) {
+	velocity_x *= 1.5
+	velocity_y *= 1.5
+}
 
 anim_frame += 1
 if (anim_frame >= 30){

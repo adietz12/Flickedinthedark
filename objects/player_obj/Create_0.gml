@@ -9,7 +9,7 @@ enum STATE{
 //sorry babe I gotta overwrite this one
 state = STATE.WALKING
 //Then like speed and other basic shit
-player_spd = 3
+player_spd = 2.0
 //thanks babe
 
 flip = false
@@ -18,3 +18,11 @@ velocity_x = 0.0
 velocity_y = 0.0
 
 anim_frame = 0
+
+set_state_walking = function(){
+	state = STATE.WALKING
+}
+
+set_state_repairing = function(){
+	state = STATE.REPAIRING
+}
