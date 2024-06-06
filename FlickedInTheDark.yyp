@@ -34,7 +34,12 @@
   },
   "name":"FlickedInTheDark",
   "resources":[
+    {"id":{"name":"paren_walls","path":"objects/paren_walls/paren_walls.yy",},},
+    {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
+    {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"examplewall_spr","path":"sprites/examplewall_spr/examplewall_spr.yy",},},
+    {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
