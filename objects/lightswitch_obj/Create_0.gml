@@ -13,10 +13,10 @@ repaired = false
 
 //the fuction that is run when the player interacts with the panel.
 interacted = function(player){
-	if (player.state == player.STATE.REPAIRING) {
+	if (player.state == STATE.REPAIRING) {
 		player.set_state_walking()
 		close_panel()
-	} else {
+	} else if (player.state == STATE.WALKING) {
 		player.set_state_repairing()
 		open_panel()	
 	}

@@ -6,7 +6,8 @@ var right = keyboard_check(ord("D"));
 var left = -keyboard_check(ord("A"));
 var up = -keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
-var sprint = keyboard_check(vk_shift)
+var sprint = keyboard_check(vk_shift);
+var interact = keyboard_check_pressed(ord("E"));
 
 var horiz = right+left;
 var vert = up+down;
@@ -20,6 +21,13 @@ if (sprint) {
 anim_frame += 1
 if (anim_frame >= 30){
 	anim_frame = 0
+}
+
+if (interact){
+	var s = instance_place(x,y-32,lightswitch_obj)
+	if (s != noone){
+		s.interacted(self)
+	}
 }
 
 if (state == STATE.WALKING){
