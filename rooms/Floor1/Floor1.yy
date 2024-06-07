@@ -140,6 +140,7 @@
     {"name":"inst_69B1F9C5","path":"rooms/Floor1/Floor1.yy",},
     {"name":"inst_61B3F6A","path":"rooms/Floor1/Floor1.yy",},
     {"name":"inst_7731F16E","path":"rooms/Floor1/Floor1.yy",},
+    {"name":"inst_33F1CFB2","path":"rooms/Floor1/Floor1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -285,6 +286,7 @@
         {"$GMRInstance":"","%Name":"inst_7BBE3D0E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BBE3D0E","objectId":{"name":"lightswitch_obj","path":"objects/lightswitch_obj/lightswitch_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":896.0,},
         {"$GMRInstance":"","%Name":"inst_57F6EE11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57F6EE11","objectId":{"name":"lamp_obj","path":"objects/lamp_obj/lamp_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":576.0,},
         {"$GMRInstance":"","%Name":"inst_40162B31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40162B31","objectId":{"name":"monster_revenant_obj","path":"objects/monster_revenant_obj/monster_revenant_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":992.0,},
+        {"$GMRInstance":"","%Name":"inst_33F1CFB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33F1CFB2","objectId":{"name":"monster_scratcher_obj","path":"objects/monster_scratcher_obj/monster_scratcher_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":1312.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Geometry","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Geometry","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":30,"TileCompressedData":[
           -2,-2147483648,-11,0,-19,-2147483648,-4,0,-3,9,-4,0,-19,-2147483648,-4,0,3,9,1,9,-4,0,-19,-2147483648,
