@@ -3,19 +3,20 @@
 event_inherited()
 
 should_avoid_light = false
-monster_speed = 5.0
+monster_speed = 12.0
 
 enum ZEALOT_STATE {
 	CHASING_PLAYER,
 	CHASING_IDOL,
 	WAITING,
+	PREPARING,
 }
 
 zealot_state = -1
 idol = noone
 
 getwaittime = function(){
-	return random_range(30,60)	
+	return random_range(1800,3600)	
 }
 
 waiting_time = getwaittime()
@@ -51,6 +52,15 @@ zplayer = function(){
 	chasing_idol = false
 	visible = true
 	state_chasing()
+}
+zpreparing = function(){
+	if zealot_state == ZEALOT_STATE.PREPARING{
+		return	
+	}
+	zealot_state = ZEALOT_STATE.PREPARING
+	visible = true
+	waiting_time = random_range(100,200)
+	state_idle()	
 }
 
 zwait()

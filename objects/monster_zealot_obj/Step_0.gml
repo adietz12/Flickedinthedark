@@ -8,8 +8,14 @@ if zealot_state == ZEALOT_STATE.WAITING {
 		idol = instance_create_layer(player_obj.x,player_obj.y,"Instances",monster_zealot_idol_obj)
 		idolx = idol.x
 		idoly = idol.y
-		zidol()	
+		zpreparing()	
 	}
+}
+else if zealot_state == ZEALOT_STATE.PREPARING {
+	waiting_time -= 1
+	if waiting_time <= 0{
+		zidol()	
+	}	
 }
 else if zealot_state == ZEALOT_STATE.CHASING_PLAYER {
 	if not player_obj.is_lit {
