@@ -19,14 +19,41 @@ velocity_y = 0.0
 
 anim_frame = 0
 
-flashlight_beam = instance_create_layer(x,y,"Instances",light_source_beam_obj)
-flashlight_on = true
-flashlight_was_on = true
+flashlight_beam = noone
+flashlight_on = false
+flashlight_was_on = false
+
+flashlight_update = function(){
+	if flashlight_on {
+		var beamx = x
+		if flip {
+			beamx += -10
+		} else {
+			beamx += 10
+		}
+		var beamy = y + 12
+		flashlight_beam.x = beamx
+		flashlight_beam.y = beamy
+		var bdiffx = mouse_x - beamx
+		var bdiffy = mouse_y - beamy
+		flashlight_beam.rotation = radtodeg(arctan(-bdiffy/bdiffx))
+		if bdiffx < 0{
+			flashlight_beam.rotation += 180	
+		}
+		flashlight_beam.update_end()
+	}	
+}
 
 set_flashlight = function(v){
 	flashlight_on = v
-	flashlight_beam.enabled = v
-	flashlight_beam.beam_end.enabled = v
+	if (v and flashlight_beam == noone){
+		flashlight_beam = instance_create_layer(x,y,"Instances",light_source_beam_obj)	
+	}
+	else if (!v and flashlight_beam != noone){
+		instance_destroy(flashlight_beam)
+		flashlight_beam = noone
+	}
+	flashlight_update()
 }
 
 set_state_walking = function(){
@@ -36,3 +63,5 @@ set_state_walking = function(){
 set_state_repairing = function(){
 	state = STATE.REPAIRING
 }
+
+set_flashlight(true)

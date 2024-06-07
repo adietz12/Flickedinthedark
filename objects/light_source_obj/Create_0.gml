@@ -3,4 +3,3 @@
 rotation = 0
 sizex = 1.0
 sizey = 1.0
-enabled = true

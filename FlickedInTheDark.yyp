@@ -37,6 +37,7 @@
   "name":"FlickedInTheDark",
   "resources":[
     {"id":{"name":"lamp_obj","path":"objects/lamp_obj/lamp_obj.yy",},},
+    {"id":{"name":"level_manger_obj","path":"objects/level_manger_obj/level_manger_obj.yy",},},
     {"id":{"name":"light_source_beam_end_obj","path":"objects/light_source_beam_end_obj/light_source_beam_end_obj.yy",},},
     {"id":{"name":"light_source_beam_obj","path":"objects/light_source_beam_obj/light_source_beam_obj.yy",},},
     {"id":{"name":"light_source_lamp_obj","path":"objects/light_source_lamp_obj/light_source_lamp_obj.yy",},},
