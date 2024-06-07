@@ -35,6 +35,7 @@
   },
   "name":"FlickedInTheDark",
   "resources":[
+    {"id":{"name":"light_source_beam_end_obj","path":"objects/light_source_beam_end_obj/light_source_beam_end_obj.yy",},},
     {"id":{"name":"light_source_beam_obj","path":"objects/light_source_beam_obj/light_source_beam_obj.yy",},},
     {"id":{"name":"light_source_obj","path":"objects/light_source_obj/light_source_obj.yy",},},
     {"id":{"name":"lighting_controller_obj","path":"objects/lighting_controller_obj/lighting_controller_obj.yy",},},
@@ -47,8 +48,8 @@
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_darkness_controller","path":"sprites/spr_darkness_controller/spr_darkness_controller.yy",},},
-    {"id":{"name":"spr_light_beam_1","path":"sprites/spr_light_beam_1/spr_light_beam_1.yy",},},
     {"id":{"name":"spr_light_beam","path":"sprites/spr_light_beam/spr_light_beam.yy",},},
+    {"id":{"name":"spr_light_flashlight","path":"sprites/spr_light_flashlight/spr_light_flashlight.yy",},},
     {"id":{"name":"spr_lightswitch","path":"sprites/spr_lightswitch/spr_lightswitch.yy",},},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},},
     {"id":{"name":"spr_panel","path":"sprites/spr_panel/spr_panel.yy",},},
