@@ -23,9 +23,9 @@ if (surface_exists(surf)) {
 	gpu_set_blendmode(bm_subtract);
 	with (light_source_obj)
 		{
-			var _sw = sprite_width / 2;
-			var _sh = sprite_height / 2;
-			draw_sprite_ext(sprite_index, 0, x - _cx, y - _cy, sizex, sizey, rotation, c_white, 1);
+			if (enabled) {
+				draw_sprite_ext(sprite_index, 0, x - _cx, y - _cy, sizex, sizey, rotation, c_white, 1);
+			}
 		}
 	gpu_set_blendmode(bm_normal);
 	draw_set_alpha(1);

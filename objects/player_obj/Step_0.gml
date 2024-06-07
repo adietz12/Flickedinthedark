@@ -43,7 +43,20 @@ if bdiffx < 0{
 if (interact){
 	var s = instance_place(x,y-32,lightswitch_obj)
 	if (s != noone){
+		
 		s.interacted(self)
+		if state == STATE.REPAIRING{
+			flashlight_was_on = flashlight_on
+			set_flashlight(false)
+		} else if state == STATE.WALKING{
+			set_flashlight(flashlight_was_on)
+		}
+	}
+}
+
+if mouse_check_button_pressed(mb_left) {
+	if state != STATE.REPAIRING {
+		set_flashlight(!flashlight_on)	
 	}
 }
 
