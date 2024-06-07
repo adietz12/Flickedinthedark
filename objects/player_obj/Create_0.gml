@@ -23,6 +23,8 @@ flashlight_beam = noone
 flashlight_on = false
 flashlight_was_on = false
 
+is_lit = false
+
 flashlight_update = function(){
 	if flashlight_on {
 		var beamx = x

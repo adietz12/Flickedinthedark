@@ -26,6 +26,13 @@ if (anim_frame >= 30){
 //fleshlight beam management stuff
 flashlight_update()
 
+if (instance_place(x,y,light_source_obj) or flashlight_on or state == STATE.REPAIRING) {
+	is_lit = true	
+}
+else {
+	is_lit = false	
+}
+
 if (interact){
 	var s = instance_place(x,y-32,lightswitch_obj)
 	if (s != noone){

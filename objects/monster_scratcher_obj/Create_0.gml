@@ -4,6 +4,10 @@ event_inherited()
 
 should_avoid_light = false
 
+patience = 3.0
+
+lit = false
+
 get_frame = function(){
 	return min(floor(random_range(0,terror*12)),7)
 }

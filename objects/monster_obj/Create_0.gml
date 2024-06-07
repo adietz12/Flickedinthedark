@@ -13,7 +13,10 @@ enum MONSTER_STATE {
 monster_speed = 3
 state = MONSTER_STATE.IDLE
 should_avoid_light = true
+//literally just for zealot
 chasing_idol = false
+idolx = 0
+idoly = 0
 
 //wander
 wandirx = 0
@@ -44,6 +47,8 @@ state_chasing = function(){
 	if state == MONSTER_STATE.CHASING {
 		return	
 	}
+	pathdx = -1000
+	pathdy = -1000
 	path_end();
 	state = MONSTER_STATE.CHASING;
 }

@@ -3,7 +3,17 @@
 
 
 if state == MONSTER_STATE.CHASING {
-	if (pathfind_to(player_obj.x,player_obj.y) and path != noone) {
+	var hx = 0
+	var hy = 0
+	if chasing_idol {
+		hx = idolx
+		hy = idoly
+	}
+	else {
+		hx = player_obj.x
+		hy = player_obj.y
+	}
+	if (pathfind_to(hx,hy) and path != noone) {
 		path_start(path, monster_speed, path_action_stop, 1);
 	}	
 }
