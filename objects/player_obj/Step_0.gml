@@ -48,6 +48,12 @@ if (interact){
 			set_flashlight(flashlight_was_on)
 		}
 	}
+	else {
+		s = instance_place(x,y,elevator_obj)
+		if (s != noone){
+			s.interacted()
+		}
+	}
 }
 
 if mouse_check_button_pressed(mb_left) {
@@ -56,7 +62,7 @@ if mouse_check_button_pressed(mb_left) {
 	}
 }
 
-if flashlight_on or state == STATE.REPAIRING {
+if (flashlight_on or state == STATE.REPAIRING) and (!infinite_battery) {
 	battery = max(battery-0.01,0.0);
 	if battery <= 0.0 and flashlight_on{
 		set_flashlight(false)	

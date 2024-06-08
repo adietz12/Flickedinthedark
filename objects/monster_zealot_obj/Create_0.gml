@@ -16,7 +16,7 @@ zealot_state = -1
 idol = noone
 
 getwaittime = function(){
-	return random_range(1800,3600)	
+	return random_range(2500,7200)	
 }
 
 waiting_time = getwaittime()
@@ -59,7 +59,7 @@ zpreparing = function(){
 	}
 	zealot_state = ZEALOT_STATE.PREPARING
 	visible = true
-	waiting_time = random_range(100,200)
+	waiting_time = random_range(100,900)
 	state_idle()	
 }
 

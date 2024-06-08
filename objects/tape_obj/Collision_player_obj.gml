@@ -4,4 +4,4 @@ if used {
 	return	
 }
 used = true
-audio_play_sound(sound,1.0,0)
+audio_play_sound(sound,99.0,0)
