@@ -18,3 +18,7 @@ jumpscare = function(s,v,b){
 	audio_play_sound(jumpscare_sound,100.0,0.0,2.0)
 	jumpscaring = true
 }
+
+switch_repaired = function(sid){
+	return	
+}

@@ -46,7 +46,19 @@ close_panel = function(){
 	if (panel.on=true){
 		show_debug_message("That bitch is turned ON")
 		draw_state=DRAW.REPAIRED
-		repaired=true
+		repair_the_panel()
 	}
 	return	
+}
+
+// me omw to create merge conflicts
+repair_the_panel = function(){
+	if repaired{
+		return
+	}
+	repaired = true
+	// signal to tell the game which lightswitch was repaired
+	level_manger_obj.switch_repaired(lightswitch_id)
+	// lightswitch_id is defined the the object's variable definitions. This allows the id to be changed from the level editor
+	// define things like which wires there should be and which ones are the correct ones there too for the same reason
 }
