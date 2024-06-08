@@ -8,6 +8,8 @@ jumpscare_sound = noone
 
 surf = -1;
 
+number_of_lightswitches = 0;
+
 jumpscare = function(s,v,b){
 	if jumpscaring {
 		return	
@@ -20,5 +22,21 @@ jumpscare = function(s,v,b){
 }
 
 switch_repaired = function(sid){
-	return	
+	number_of_lightswitches -= 1
+	if number_of_lightswitches <= 0{
+		lighting_controller_obj.darkness = 0.5
+		with (powerable_obj) {
+			power_it()	
+		}
+		with (monster_obj) {
+			instance_destroy(self)	
+		}
+	}
+	else {
+		with (powerable_obj) {
+			if (powered_by == sid){
+				power_it()	
+			}
+		}
+	}
 }

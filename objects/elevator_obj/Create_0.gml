@@ -15,5 +15,3 @@ interacted = function(){
 	global.previous_level = floor_to
 	room_goto(floor_to)
 }
-
-power_it()

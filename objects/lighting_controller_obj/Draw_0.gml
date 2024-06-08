@@ -18,7 +18,7 @@ if (surface_exists(surf)) {
 	var _cy = camera_get_view_y(view_camera[0]);
 	surface_set_target(surf);
 	draw_set_color(c_black);
-	draw_set_alpha(1.0);
+	draw_set_alpha(darkness);
 	draw_rectangle(0, 0, _cw, _ch, 0);
 	gpu_set_blendmode(bm_subtract);
 	with (light_source_obj)

@@ -71,6 +71,7 @@
     {"id":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},
     {"id":{"name":"Floor4","path":"rooms/Floor4/Floor4.yy",},},
     {"id":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
+    {"id":{"name":"Floor6","path":"rooms/Floor6/Floor6.yy",},},
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"snd_jumpscare_revenant","path":"sounds/snd_jumpscare_revenant/snd_jumpscare_revenant.yy",},},
@@ -125,6 +126,7 @@
     {"roomId":{"name":"Floor4","path":"rooms/Floor4/Floor4.yy",},},
     {"roomId":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
     {"roomId":{"name":"Level","path":"rooms/Level/Level.yy",},},
+    {"roomId":{"name":"Floor6","path":"rooms/Floor6/Floor6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
