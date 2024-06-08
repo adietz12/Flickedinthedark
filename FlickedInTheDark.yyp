@@ -60,6 +60,10 @@
     {"id":{"name":"powerable_obj","path":"objects/powerable_obj/powerable_obj.yy",},},
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
     {"id":{"name":"Floor1","path":"rooms/Floor1/Floor1.yy",},},
+    {"id":{"name":"Floor2","path":"rooms/Floor2/Floor2.yy",},},
+    {"id":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},
+    {"id":{"name":"Floor4","path":"rooms/Floor4/Floor4.yy",},},
+    {"id":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"id":{"name":"examplewall_spr","path":"sprites/examplewall_spr/examplewall_spr.yy",},},
     {"id":{"name":"panel_lightswitch_spr","path":"sprites/panel_lightswitch_spr/panel_lightswitch_spr.yy",},},
@@ -94,6 +98,10 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Floor1","path":"rooms/Floor1/Floor1.yy",},},
     {"roomId":{"name":"Level","path":"rooms/Level/Level.yy",},},
+    {"roomId":{"name":"Floor2","path":"rooms/Floor2/Floor2.yy",},},
+    {"roomId":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},
+    {"roomId":{"name":"Floor4","path":"rooms/Floor4/Floor4.yy",},},
+    {"roomId":{"name":"Floor5","path":"rooms/Floor5/Floor5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
