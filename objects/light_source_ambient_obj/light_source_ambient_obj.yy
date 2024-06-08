@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"level_manger_obj",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"light_source_ambient_obj",
+  "eventList":[],
   "managed":true,
-  "name":"level_manger_obj",
+  "name":"light_source_ambient_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"light_source_obj",
+    "path":"objects/light_source_obj/light_source_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_light_ambient",
+    "path":"sprites/spr_light_ambient/spr_light_ambient.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

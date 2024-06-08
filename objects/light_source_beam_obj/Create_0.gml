@@ -5,6 +5,8 @@ event_inherited()
 beam_length = 220
 beam_end = instance_create_layer(x,y,"Instances",light_source_beam_end_obj)
 
+sizey = 1.5
+
 update_end = function(){
 	var bx = x
 	var by = y

@@ -18,6 +18,9 @@ if (sprint) {
 	velocity_y *= 1.5
 }
 
+ambient_light.x =x
+ambient_light.y =y
+
 anim_frame += 1
 if (anim_frame >= 30){
 	anim_frame = 0
@@ -26,7 +29,7 @@ if (anim_frame >= 30){
 //fleshlight beam management stuff
 flashlight_update()
 
-if (instance_place(x,y,light_source_obj) or flashlight_on or state == STATE.REPAIRING) {
+if (instance_place(x,y,light_source_lamp_obj) or flashlight_on or state == STATE.REPAIRING) {
 	is_lit = true	
 }
 else {
@@ -50,6 +53,13 @@ if (interact){
 if mouse_check_button_pressed(mb_left) {
 	if state != STATE.REPAIRING {
 		set_flashlight(!flashlight_on)	
+	}
+}
+
+if flashlight_on or state == STATE.REPAIRING {
+	battery = max(battery-0.01,0.0);
+	if battery <= 0.0 and flashlight_on{
+		set_flashlight(false)	
 	}
 }
 
