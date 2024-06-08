@@ -12,6 +12,9 @@ state = STATE.WALKING
 player_spd = 2.0
 //thanks babe
 
+//Hopefully this doesn't cause merge conflict
+window_set_cursor(cr_none);
+
 flip = false
 //wheres the fucking vectors at aj??? you said gamemaker was GOOD dammit!
 velocity_x = 0.0
