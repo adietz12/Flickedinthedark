@@ -12,9 +12,6 @@ state = STATE.WALKING
 player_spd = 2.0
 //thanks babe
 
-//Hopefully this doesn't cause merge conflict
-window_set_cursor(cr_none);
-
 flip = false
 //wheres the fucking vectors at aj??? you said gamemaker was GOOD dammit!
 velocity_x = 0.0
@@ -69,10 +66,12 @@ set_flashlight = function(v){
 
 set_state_walking = function(){
 	state = STATE.WALKING
+	window_set_cursor(cr_arrow);
 }
 
 set_state_repairing = function(){
 	state = STATE.REPAIRING
+	window_set_cursor(cr_none);
 }
 
 set_flashlight(true)
