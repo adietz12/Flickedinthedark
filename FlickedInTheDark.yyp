@@ -36,11 +36,8 @@
   },
   "name":"FlickedInTheDark",
   "resources":[
-<<<<<<< HEAD
     {"id":{"name":"elevator_obj","path":"objects/elevator_obj/elevator_obj.yy",},},
-=======
     {"id":{"name":"hand_obj","path":"objects/hand_obj/hand_obj.yy",},},
->>>>>>> f792a2c9c895f2e463f8cfe3c5a34c644b9d8647
     {"id":{"name":"lamp_obj","path":"objects/lamp_obj/lamp_obj.yy",},},
     {"id":{"name":"level_manger_obj","path":"objects/level_manger_obj/level_manger_obj.yy",},},
     {"id":{"name":"light_source_ambient_obj","path":"objects/light_source_ambient_obj/light_source_ambient_obj.yy",},},
@@ -68,11 +65,8 @@
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_darkness_controller","path":"sprites/spr_darkness_controller/spr_darkness_controller.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_elevator","path":"sprites/spr_elevator/spr_elevator.yy",},},
-=======
     {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
->>>>>>> f792a2c9c895f2e463f8cfe3c5a34c644b9d8647
     {"id":{"name":"spr_idol","path":"sprites/spr_idol/spr_idol.yy",},},
     {"id":{"name":"spr_lamp","path":"sprites/spr_lamp/spr_lamp.yy",},},
     {"id":{"name":"spr_light_ambient","path":"sprites/spr_light_ambient/spr_light_ambient.yy",},},
