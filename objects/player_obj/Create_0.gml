@@ -22,6 +22,9 @@ anim_frame = 0
 flashlight_beam = noone
 flashlight_on = false
 flashlight_was_on = false
+battery = 100.0
+
+ambient_light = instance_create_layer(x,y,"Instances",light_source_ambient_obj)
 
 is_lit = false
 
@@ -47,6 +50,9 @@ flashlight_update = function(){
 }
 
 set_flashlight = function(v){
+	if (v and battery <= 0.0) {
+		return	
+	}
 	flashlight_on = v
 	if (v and flashlight_beam == noone){
 		flashlight_beam = instance_create_layer(x,y,"Instances",light_source_beam_obj)	
