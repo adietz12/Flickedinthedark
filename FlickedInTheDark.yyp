@@ -37,6 +37,7 @@
   "name":"FlickedInTheDark",
   "resources":[
     {"id":{"name":"elevator_obj","path":"objects/elevator_obj/elevator_obj.yy",},},
+    {"id":{"name":"emcm_obj","path":"objects/emcm_obj/emcm_obj.yy",},},
     {"id":{"name":"hand_obj","path":"objects/hand_obj/hand_obj.yy",},},
     {"id":{"name":"lamp_obj","path":"objects/lamp_obj/lamp_obj.yy",},},
     {"id":{"name":"level_manger_obj","path":"objects/level_manger_obj/level_manger_obj.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_darkness_controller","path":"sprites/spr_darkness_controller/spr_darkness_controller.yy",},},
     {"id":{"name":"spr_elevator","path":"sprites/spr_elevator/spr_elevator.yy",},},
+    {"id":{"name":"spr_emcm","path":"sprites/spr_emcm/spr_emcm.yy",},},
     {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
     {"id":{"name":"spr_idol","path":"sprites/spr_idol/spr_idol.yy",},},
     {"id":{"name":"spr_lamp","path":"sprites/spr_lamp/spr_lamp.yy",},},
