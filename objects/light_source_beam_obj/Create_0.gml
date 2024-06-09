@@ -11,8 +11,8 @@ update_end = function(){
 	var bx = x
 	var by = y
 
-	var ix = cos(degtorad(rotation))
-	var iy = sin(degtorad(rotation))
+	var ix = cos(degtorad(rotation)) * 16
+	var iy = sin(degtorad(rotation)) * 16
 
 	var longth = sqrt(sqr(mouse_x-x)+sqr(mouse_y-y))
 
@@ -21,7 +21,7 @@ update_end = function(){
 	while(!collision_point(bx+ix,by+iy,[wall_obj,monster_obj,light_wall_obj],false,false) and beam_length < maxlongth){
 		bx += ix
 		by -= iy
-		beam_length += 1
+		beam_length += 16
 	}
 
 	sizex = beam_length/220
