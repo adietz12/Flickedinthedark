@@ -115,6 +115,7 @@
     {"id":{"name":"spr_mainmenu","path":"sprites/spr_mainmenu/spr_mainmenu.yy",},},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},},
     {"id":{"name":"spr_panel","path":"sprites/spr_panel/spr_panel.yy",},},
+    {"id":{"name":"spr_random_ass_rectangle","path":"sprites/spr_random_ass_rectangle/spr_random_ass_rectangle.yy",},},
     {"id":{"name":"spr_revenant","path":"sprites/spr_revenant/spr_revenant.yy",},},
     {"id":{"name":"spr_scratcher","path":"sprites/spr_scratcher/spr_scratcher.yy",},},
     {"id":{"name":"spr_switch_item","path":"sprites/spr_switch_item/spr_switch_item.yy",},},
