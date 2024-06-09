@@ -7,7 +7,9 @@ var s = ceil((player_obj.battery/100.0) * 6)
 
 draw_sprite_ext(spr_ui_battery,s,x+cx+32,y+cy+16,1.0,1.0,0.0,c_white,1)
 
-
+for (var i=0;i<player_obj.held_switces;i+=1){
+	draw_sprite_ext(spr_switch_item,s,x+cx+96+(10*i),y+cy+16,1.0,1.0,0.0,c_white,1)
+}
 
 if jumpscaring {
 	if !surface_exists(surf)
