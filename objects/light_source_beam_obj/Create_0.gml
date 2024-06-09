@@ -18,7 +18,7 @@ update_end = function(){
 
 	beam_length = 0
 	var maxlongth = min(longth,250)
-	while(!collision_point(bx+ix,by+iy,[wall_obj,monster_obj],false,false) and beam_length < maxlongth){
+	while(!collision_point(bx+ix,by+iy,[wall_obj,monster_obj,light_wall_obj],false,false) and beam_length < maxlongth){
 		bx += ix
 		by -= iy
 		beam_length += 1
