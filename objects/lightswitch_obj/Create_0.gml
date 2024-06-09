@@ -11,6 +11,9 @@ panelid= random(100)
 //determines which sprite is used
 draw_state = DRAW.DISABLED
 repaired = false
+if (missing_switch){
+	draw_state=DRAW.DISABLED_SWITCHLESS	
+}
 //the fuction that is run when the player interacts with the panel.
 interacted = function(player){
 	if (player.state == STATE.REPAIRING) {

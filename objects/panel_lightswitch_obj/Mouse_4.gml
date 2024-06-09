@@ -9,3 +9,7 @@ if (on=false && visible=true && canbeswitched){
 if (!canbeswitched && visible=true && image_index==0 && roaches==false){
 	image_index++
 }
+if (player_obj.held_switces>0 && image_index==2){
+	image_index=0
+	player_obj.held_switces--
+}
