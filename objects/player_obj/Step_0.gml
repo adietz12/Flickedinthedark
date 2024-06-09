@@ -54,7 +54,7 @@ if (interact){
 	else {
 		s = instance_place(x,y,elevator_obj)
 		if (s != noone){
-			s.interacted()
+			s.interacted(self)
 		}
 	}
 }

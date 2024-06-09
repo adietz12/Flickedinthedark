@@ -89,6 +89,7 @@
     {"id":{"name":"snd_metal_pipe","path":"sounds/snd_metal_pipe/snd_metal_pipe.yy",},},
     {"id":{"name":"snd_music_box","path":"sounds/snd_music_box/snd_music_box.yy",},},
     {"id":{"name":"snd_rec_1","path":"sounds/snd_rec_1/snd_rec_1.yy",},},
+    {"id":{"name":"snd_rec_4","path":"sounds/snd_rec_4/snd_rec_4.yy",},},
     {"id":{"name":"snd_revenant","path":"sounds/snd_revenant/snd_revenant.yy",},},
     {"id":{"name":"snd_splat","path":"sounds/snd_splat/snd_splat.yy",},},
     {"id":{"name":"snd_stoneslide","path":"sounds/snd_stoneslide/snd_stoneslide.yy",},},
