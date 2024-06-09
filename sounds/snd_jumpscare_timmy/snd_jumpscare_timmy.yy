@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.716735,
+  "duration":5.234308,
   "name":"snd_jumpscare_timmy",
   "parent":{
     "name":"jumpscare",

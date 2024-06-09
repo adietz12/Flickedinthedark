@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 audio_stop_all()
+audio_play_sound(ambiance,20.0,9999,2.0)
 
 with (lightswitch_obj) {
 	other.number_of_lightswitches += 1	

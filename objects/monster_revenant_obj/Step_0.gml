@@ -13,6 +13,12 @@ if funne_timer < 0{
 	}
 }
 
+noise_delay -= 1
+if noise_delay <= 0 {
+	noise_delay = random_range(200,600)
+	audio_play_sound_at(snd_revenant,x,y,0,50,200,1,0,70)
+}
+
 if (instance_place(x,y,light_source_obj)) {
 	entropy = min(entropy+0.01,1.0)
 	state_chasing()

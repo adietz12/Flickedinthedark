@@ -31,6 +31,7 @@ switch_repaired = function(sid){
 		with (monster_obj) {
 			instance_destroy(self)	
 		}
+		audio_stop_sound(ambiance)
 	}
 	else {
 		with (powerable_obj) {

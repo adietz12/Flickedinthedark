@@ -433,6 +433,7 @@
     {"name":"inst_713BADB5","path":"rooms/Floor5/Floor5.yy",},
     {"name":"inst_56F6D90E","path":"rooms/Floor5/Floor5.yy",},
     {"name":"inst_45AEC81A","path":"rooms/Floor5/Floor5.yy",},
+    {"name":"inst_5AB5E94B","path":"rooms/Floor5/Floor5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -896,6 +897,9 @@
         {"$GMRInstance":"","%Name":"inst_45AEC81A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45AEC81A","objectId":{"name":"tape_obj","path":"objects/tape_obj/tape_obj.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"tape_obj","path":"objects/tape_obj/tape_obj.yy",},"propertyId":{"name":"sound","path":"objects/tape_obj/tape_obj.yy",},"resource":{"name":"snd_jumpscare_revenant","path":"sounds/snd_jumpscare_revenant/snd_jumpscare_revenant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_jumpscare_revenant",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":128.0,},
+        {"$GMRInstance":"","%Name":"inst_5AB5E94B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5AB5E94B","objectId":{"name":"tape_obj","path":"objects/tape_obj/tape_obj.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"tape_obj","path":"objects/tape_obj/tape_obj.yy",},"propertyId":{"name":"sound","path":"objects/tape_obj/tape_obj.yy",},"resource":{"name":"snd_jumpscare_timmy","path":"sounds/snd_jumpscare_timmy/snd_jumpscare_timmy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_jumpscare_timmy",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":1600.0,},
         {"$GMRInstance":"","%Name":"inst_56F6D90E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56F6D90E","objectId":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Stains","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Stains","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":30,"TileCompressedData":[

@@ -143,6 +143,7 @@
     {"name":"inst_FAA41D3","path":"rooms/Floor1/Floor1.yy",},
     {"name":"inst_1CCEE8C0","path":"rooms/Floor1/Floor1.yy",},
     {"name":"inst_3EF9C9F1","path":"rooms/Floor1/Floor1.yy",},
+    {"name":"inst_2D4C6289","path":"rooms/Floor1/Floor1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -313,6 +314,7 @@
         {"$GMRInstance":"","%Name":"inst_6D4D0D6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D4D0D6F","objectId":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"propertyId":{"name":"infinite_battery","path":"objects/player_obj/player_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":1696.0,},
+        {"$GMRInstance":"","%Name":"inst_2D4C6289","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D4C6289","objectId":{"name":"monster_revenant_obj","path":"objects/monster_revenant_obj/monster_revenant_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":1312.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Stains_2_because_gms_is_actually_broken","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Stains_2_because_gms_is_actually_broken","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":30,"TileCompressedData":[
           -67,-2147483648,1,0,-29,-2147483648,1,7,-26,-2147483648,4,4,-2147483648,-2147483648,7,-27,-2147483648,

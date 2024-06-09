@@ -18,6 +18,9 @@ if (sprint) {
 	velocity_y *= 1.5
 }
 
+audio_listener_set_orientation(0,mouse_x, mouse_y, 0, 0, -1, 0);
+audio_listener_set_position(0,x,y,0)
+
 ambient_light.x =x
 ambient_light.y =y
 
@@ -58,6 +61,7 @@ if (interact){
 
 if mouse_check_button_pressed(mb_left) {
 	if state != STATE.REPAIRING {
+		audio_play_sound(snd_flashlight,40.0,0)
 		set_flashlight(!flashlight_on)	
 	}
 }

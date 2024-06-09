@@ -8,6 +8,8 @@ entropy = 0.0;
 
 funne_timer = 0;
 
+noise_delay = 100;
+
 //im going to snap
 granddad = function(n){
 	return random_range(-1-(n*entropy),1+(n*entropy))
