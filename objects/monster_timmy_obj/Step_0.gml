@@ -3,7 +3,7 @@
 event_inherited()
 
 if not sounding{
-	audio_play_sound_on(emitter,snd_stoneslide,9999,50.0)
+	audio_play_sound_on(emitter,snd_stoneslide,9999,50.0,0.5)
 	sounding = true
 }
 
