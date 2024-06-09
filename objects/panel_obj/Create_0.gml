@@ -25,6 +25,9 @@ port = instance_create_layer(x,y,"Panel",panel_eletricport_obj)
 	if (broken_port=true){
 		port.image_index=1
 	}
+	if (gummified_port){
+		port.image_index=3
+	}
 	
 if (wire_count>0){
 for (var i=0; i<wire_count; i++){
