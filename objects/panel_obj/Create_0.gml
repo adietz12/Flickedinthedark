@@ -2,7 +2,10 @@
 // You can write your code in this editor
 on=false
 wires_good=false
+roaches = [];
+roaches_defeated=true
 wires = [];
+
 if (wire_count==0){
 	wires_good=true	
 }
@@ -46,6 +49,17 @@ var false_wire_index = irandom(wire_count - 1);
 wires[false_wire_index].correct_state = false;
 show_debug_message("Extra false Wire number " + string(false_wire_index+1)+ " state: " + string(correct_state))
 }
+
+for (var i=0; i<roach_count; i++){
+	roach = instance_create_layer(x+irandom_range(200,900), y+irandom_range(50,600), "Panel", panel_roach_obj)	
+	roach.depth=1
+	array_push(roaches, roach)
+	roaches_defeated=false
+}
+
+
+
+
 
 port.depth=1
 lightswitch.depth=1

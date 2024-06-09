@@ -35,7 +35,8 @@ open_panel = function(){
 		wire_count:wire_count,
 		missing_switch:missing_switch,
 		lightswitch_id:panelid,
-		gummified_port:gummified_port
+		gummified_port:gummified_port,
+		roach_count:roach_count
 		})
 	
 	//So shit doesn't get drawn under the panel
