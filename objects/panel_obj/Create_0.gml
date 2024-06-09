@@ -26,6 +26,7 @@ lightswitch = instance_create_layer(x+686,y+300,"Panel",panel_lightswitch_obj)
 		lightswitch.roaches=true
 	}
 	
+	
 
 
 port = instance_create_layer(x,y,"Panel",panel_eletricport_obj)

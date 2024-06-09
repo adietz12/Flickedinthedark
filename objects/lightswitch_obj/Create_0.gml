@@ -57,6 +57,7 @@ close_panel = function(){
 		draw_state=DRAW.REPAIRED
 		repair_the_panel()
 	}
+	player_obj.state = STATE.WALKING
 	return	
 }
 
