@@ -3,3 +3,4 @@
 image_speed=0
 alive=true
 image_angle=irandom(360)
+delay=0

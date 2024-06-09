@@ -22,6 +22,10 @@ lightswitch = instance_create_layer(x+686,y+300,"Panel",panel_lightswitch_obj)
 	if (missing_switch){
 		lightswitch.image_index=2
 	}
+	if (roach_count>0){
+		lightswitch.roaches=true
+	}
+	
 
 
 port = instance_create_layer(x,y,"Panel",panel_eletricport_obj)

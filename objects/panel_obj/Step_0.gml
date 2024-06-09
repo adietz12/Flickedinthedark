@@ -60,6 +60,7 @@ if (lightswitch.on=true){
 
 
 if (roaches_defeated){
+	lightswitch.roaches=false
 	if (port.image_index==0 || port.image_index==2){
 		if (wires_good){
 		lightswitch.canbeswitched=true	
