@@ -19,7 +19,7 @@ interacted = function(player){
 	if (player.state == STATE.REPAIRING) {
 		player.set_state_walking()
 		close_panel()
-	} else if (player.state == STATE.WALKING) {
+	} else if (player.state == STATE.WALKING) and not repaired {
 		player.set_state_repairing()
 		open_panel()	
 	}
@@ -55,12 +55,9 @@ open_panel = function(){
 close_panel = function(){
 	panel.visible=false
 	show_debug_message("Closed that bitch")
-	if (panel.on=true){
+	if (panel.on==true){
 		show_debug_message("That bitch is turned ON")
-		draw_state=DRAW.REPAIRED
-		repair_the_panel()
 	}
-	player_obj.state = STATE.WALKING
 	return	
 }
 

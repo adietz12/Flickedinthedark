@@ -1,15 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (on=false && visible=true && canbeswitched){
+if (on=false && visible=true && canbeswitched && image_index!=2){
 	on=true
 	image_index=1
-	instance_nearest(player_obj.x,player_obj.y,lightswitch_obj).close_panel()
 }
-
-if (!canbeswitched && visible=true && image_index==0 && roaches==false){
+else if (!canbeswitched && visible=true && image_index==0 && roaches==false){
 	image_index++
 }
-if (player_obj.held_switces>0 && image_index==2){
+else if (player_obj.held_switces>0 && image_index==2){
 	image_index=0
 	player_obj.held_switces--
 }

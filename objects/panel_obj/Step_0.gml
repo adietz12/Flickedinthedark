@@ -54,7 +54,7 @@ else{
 	}
 }
 if (lightswitch.on=true){
-	on=true	
+	on=true
 }
 
 
