@@ -11,6 +11,15 @@ for (var i=0;i<player_obj.held_switces;i+=1){
 	draw_sprite_ext(spr_switch_item,s,x+cx+96+(10*i),y+cy+16,1.0,1.0,0.0,c_white,1)
 }
 
+if (player_obj.state == STATE.REPAIRING){
+	if player_obj.battery > 0{
+		draw_sprite_ext(spr_evil_overlay,0,cx,cy,1.0,1.0,0.0,c_white,0.7)
+	}
+	else {
+		draw_sprite_ext(spr_evil_overlay,1,cx,cy,1.0,1.0,0.0,c_white,1.0)
+	}
+}
+
 if jumpscaring {
 	if !surface_exists(surf)
 	{

@@ -96,6 +96,7 @@
     {"id":{"name":"spr_eletricport","path":"sprites/spr_eletricport/spr_eletricport.yy",},},
     {"id":{"name":"spr_elevator","path":"sprites/spr_elevator/spr_elevator.yy",},},
     {"id":{"name":"spr_emcm","path":"sprites/spr_emcm/spr_emcm.yy",},},
+    {"id":{"name":"spr_evil_overlay","path":"sprites/spr_evil_overlay/spr_evil_overlay.yy",},},
     {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
     {"id":{"name":"spr_idol","path":"sprites/spr_idol/spr_idol.yy",},},
     {"id":{"name":"spr_jumpscare_revenant","path":"sprites/spr_jumpscare_revenant/spr_jumpscare_revenant.yy",},},
