@@ -12,6 +12,8 @@ state = STATE.WALKING
 player_spd = 2.0
 //thanks babe
 
+held_switces = 0
+
 flip = false
 //wheres the fucking vectors at aj??? you said gamemaker was GOOD dammit!
 velocity_x = 0.0

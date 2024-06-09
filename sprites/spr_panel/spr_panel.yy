@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c99330a3-ab1a-427e-8145-dd0e63acea88","name":"c99330a3-ab1a-427e-8145-dd0e63acea88","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0a8c4a8e-8f66-4f1a-bd9f-be70b622d8e7","name":"0a8c4a8e-8f66-4f1a-bd9f-be70b622d8e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":648,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"71a3e928-0afb-4cf8-8c1c-5c9a6f18432f","blendMode":0,"displayName":"default","isLocked":false,"name":"71a3e928-0afb-4cf8-8c1c-5c9a6f18432f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"149d7f95-46a1-4b65-8db7-05a8aacbfb79","blendMode":0,"displayName":"default","isLocked":false,"name":"149d7f95-46a1-4b65-8db7-05a8aacbfb79","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_panel",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c99330a3-ab1a-427e-8145-dd0e63acea88","path":"sprites/spr_panel/spr_panel.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a7dacd1-5942-4e86-a474-8ca444f85f60","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a8c4a8e-8f66-4f1a-bd9f-be70b622d8e7","path":"sprites/spr_panel/spr_panel.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d706e16a-247b-42a2-91db-7ebfaca208a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

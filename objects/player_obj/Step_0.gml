@@ -75,15 +75,15 @@ if (flashlight_on or state == STATE.REPAIRING) and (!infinite_battery) {
 
 if (state == STATE.WALKING){
 
-	if (place_meeting(x+velocity_x,y,wall_obj)){
-		while (!place_meeting(x+sign(velocity_x),y,wall_obj)){
+	if (place_meeting(x+velocity_x,y,[wall_obj,player_wall_obj])){
+		while (!place_meeting(x+sign(velocity_x),y,[wall_obj,player_wall_obj])){
 			x+=sign(velocity_x)
 		}
 	} else {
 		x+=velocity_x;
 	}
-	if (place_meeting(x,y+velocity_y,wall_obj)){
-		while (!place_meeting(x,y+sign(velocity_y),wall_obj)){
+	if (place_meeting(x,y+velocity_y,[wall_obj,player_wall_obj])){
+		while (!place_meeting(x,y+sign(velocity_y),[wall_obj,player_wall_obj])){
 			y+=sign(velocity_y)
 		}
 	} else {
