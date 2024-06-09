@@ -115,6 +115,7 @@
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_timmy","path":"sprites/spr_timmy/spr_timmy.yy",},},
     {"id":{"name":"spr_ui_battery","path":"sprites/spr_ui_battery/spr_ui_battery.yy",},},
+    {"id":{"name":"spr_wire","path":"sprites/spr_wire/spr_wire.yy",},},
     {"id":{"name":"spr_zealot","path":"sprites/spr_zealot/spr_zealot.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
