@@ -29,7 +29,15 @@ open_panel = function(){
 	
 	if (panel==noone){
 	panel = instance_create_layer(camera_x,camera_y,"Panel",panel_obj)
-	panel.panelid=panelid
+	//initialize panel variables
+	if (missing_switch){
+	panel.lightswitch.image_index=2
+	}
+	if (broken_port=true){
+	show_debug_message("Is broken "+ string(broken_port))
+	panel.port.image_index=1
+	}
+	show_debug_message("lightswitch broken_port bool is: "+ string(broken_port))
 	//So shit doesn't get drawn under the panel
 	panel.depth=2
 	}
