@@ -5,11 +5,17 @@
 if (visible=false){
 	lightswitch.visible=false
 	hand.visible=false
+	port.visible=false
 }
 else{
 	lightswitch.visible=true
 	hand.visible=true
+	port.visible=true
 }
 if (lightswitch.on=true){
 	on=true	
+}
+
+if (port.image_index!=1){
+	lightswitch.canbeswitched=true	
 }
