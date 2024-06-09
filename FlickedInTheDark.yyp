@@ -69,6 +69,7 @@
     {"id":{"name":"switch_item_obj","path":"objects/switch_item_obj/switch_item_obj.yy",},},
     {"id":{"name":"tape_obj","path":"objects/tape_obj/tape_obj.yy",},},
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
+    {"id":{"name":"wire_obj","path":"objects/wire_obj/wire_obj.yy",},},
     {"id":{"name":"Floor1","path":"rooms/Floor1/Floor1.yy",},},
     {"id":{"name":"Floor2","path":"rooms/Floor2/Floor2.yy",},},
     {"id":{"name":"Floor3","path":"rooms/Floor3/Floor3.yy",},},

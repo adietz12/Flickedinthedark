@@ -21,23 +21,22 @@ interacted = function(player){
 		open_panel()	
 	}
 }
-
+getwirecount = function(){
+	return wirecount;
+}
 //open the panel
 open_panel = function(){
 	camera_x = camera_get_view_x(view_camera[0]);
 	camera_y = camera_get_view_y(view_camera[0]);
 	
 	if (panel==noone){
-	panel = instance_create_layer(camera_x,camera_y,"Panel",panel_obj)
-	//initialize panel variables
-	if (missing_switch){
-	panel.lightswitch.image_index=2
-	}
-	if (broken_port=true){
-	show_debug_message("Is broken "+ string(broken_port))
-	panel.port.image_index=1
-	}
-	show_debug_message("lightswitch broken_port bool is: "+ string(broken_port))
+	panel = instance_create_layer(camera_x,camera_y,"Panel",panel_obj,{
+		broken_port:broken_port,
+		wire_count:wire_count,
+		missing_switch:missing_switch,
+		lightswitch_id:panelid
+		})
+	
 	//So shit doesn't get drawn under the panel
 	panel.depth=2
 	}
