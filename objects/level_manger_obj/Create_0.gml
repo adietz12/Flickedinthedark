@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize()
 jumpscaring = false
 jumpscare_frames = 120
 jumpscare_sprite = noone
